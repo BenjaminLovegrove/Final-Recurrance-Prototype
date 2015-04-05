@@ -1132,13 +1132,13 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120822}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 70
+  m_Drag: 2
   m_AngularDrag: .0500000007
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 16
   m_CollisionDetection: 0
 --- !u!65 &6520824
 BoxCollider:
@@ -1250,6 +1250,8 @@ MonoBehaviour:
   alertTimer: 0
   originalFacing: {x: 0, y: 0, z: 0, w: 0}
   player: {fileID: 0}
+  getHit: {fileID: 8300000, guid: 304476cb4a0ff7943a1599b866dda5ec, type: 3}
+  death: {fileID: 8300000, guid: eb604ed734c20944389379e8a4121f4f, type: 3}
 --- !u!137 &13720824
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
